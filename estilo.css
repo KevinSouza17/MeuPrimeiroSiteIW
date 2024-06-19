@@ -205,4 +205,25 @@ figure figcaption{
 
 p{
     background-color: rgba(92, 92, 92, 0.205);
-}S
+}
+
+a:hover {
+    background-color: #8b8b8b;
+}
+a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    border-radius: 5px;
+}  
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
